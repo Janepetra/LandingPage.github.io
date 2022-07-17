@@ -1,0 +1,115 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+}
+
+#home {
+  background-color: cadetblue;
+  padding-top: 13%;
+  text-align: center;
+}
+
+.nav-link:hover::after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid white;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: -7px;
+}
+
+.nav-link {
+  color: white;
+}
+
+#offers {
+  padding: 80px 0;
+}
+
+.offer-img {
+  width: 80px;
+  margin: 50px 0;
+}
+
+.offer {
+  padding: 20px;
+}
+
+.title::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid cadetblue;
+  width: 20%;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+.about-desc {
+  padding-top: 50px;
+}
+
+.about-img {
+  width: 150px;
+  height: 200px;
+}
+
+#about {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.about ul li {
+  list-style: none;
+}
+
+#testimonials {
+  margin: 100px 0;
+  padding-top: 100px;
+}
+
+.testimonial {
+  border-left: 4px solid cadetblue;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.testimonial-img {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.user-detail {
+  display: inline-block;
+  font-size: 1rem;
+}
+
+.comments {
+  padding-top: 20px;
+}
+
+#contact {
+  background-color: cadetblue;
+}
+
+.contact-icons img {
+  padding: 10px;
+  width: 60px;
+}
+
+.place {
+  padding-top: 35px;
+  text-align: right;
+}
+
+.contacts {
+  text-align: right;
+}
+
+footer {
+  background-color: cadetblue;
+  font-size: 15px;
+  color: white;
+}
