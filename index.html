@@ -7,7 +7,7 @@
     <!-- CSS BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
     <!-- MY CSS -->
-    <link rel="stylesheet" href="assets/landing.css" />
+    <link rel="stylesheet" href="assets/style.css" />
   </head>
   <body>
     <!-- NAV START -->
@@ -21,7 +21,6 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto">
             <a class="nav-link" aria-current="page" href="#home">Home</a>
-            <a class="nav-link" href="#offers">Offers</a>
             <a class="nav-link" href="#about">About Us</a>
             <a class="nav-link" href="#testimonials">Testimonials</a>
             <a class="nav-link" href="#contact">Contact</a>
@@ -35,9 +34,11 @@
     <!-- HOME START -->
 
     <section id="home">
-      <h1 class="display-4">Happiness is a piece of cake</h1>
-      <p class="lead">A simple way to show your love</p>
-      <a class="btn btn-primary btn-lg" href="#" role="button">Buat Pesanan</a>
+      <div class="home">
+        <h1 class="display-4">Happiness is a piece of cake</h1>
+        <p class="lead">We love being a part of your memories and celebration</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">ORDER NOW</a>
+      </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffff"
@@ -50,30 +51,6 @@
 
     <!-- HOME END -->
 
-    <!-- Offer START -->
-
-    <section id="offers">
-      <div class="container text-center">
-        <h1 class="title">What is we offer you ?</h1>
-        <div class="row text-center">
-          <div class="col-md-4 offer">
-            <img src="assets/cake1.jpg" class="offer-img" />
-            <h4>Birthday Cake</h4>
-          </div>
-          <div class="col-md-4 offer">
-            <img src="assets/cake2.jpg" class="offer-img" />
-            <h4>Wedding Cake</h4>
-          </div>
-          <div class="col-md-4 offer">
-            <img src="assets/cake3.jpg" class="offer-img" />
-            <h4>Anniversery Cake</h4>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Offer END -->
-
     <!-- ABOUT START -->
 
     <section id="about">
@@ -81,44 +58,43 @@
         <h1 class="title">About Us</h1>
         <div class="row">
           <div class="col about-desc">
-            <p>We love being a part of your memories and celebration.</p>
+            <p>MORRIS here, you will find delicious, creative cakes made specially for you and your loved ones. We can customise your cake for birthday, wedding, anniversary, graduation etc. Tell us what inspires you!</p>
           </div>
         </div>
-        <div class="row">
-          <div class="col about">
-            <h4>Why choose us?</h4>
-            <ul>
-              <li>Delicious</li>
-              <li>Affordable</li>
-              <li>Customise Design</li>
-            </ul>
+        <div class="row text-center">
+          <div class="col-md-4 about">
+            <img src="assets/cake1.jpg" class="about-img" />
+            <h4>Birthday Cake</h4>
           </div>
-        </div>
-        <div class="row">
-          <div class="col about">
-            <img src="assets/cake 4.jpg" class="about-img" />
+          <div class="col-md-4 about">
+            <img src="assets/cake2.jpg" class="about-img" />
+            <h4>Wedding Cake</h4>
+          </div>
+          <div class="col-md-4 about">
+            <img src="assets/cake3.jpg" class="about-img" />
+            <h4>Anniversery Cake</h4>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ABOUT START -->
+    <!-- ABOUT END -->
 
     <!-- START TESTIMONIALS -->
 
     <section id="testimonials">
       <div class="container">
-        <h1 class="title text-center">What Clients Say?</h1>
+        <h1 class="title text-center">What Customers Say?</h1>
         <div class="row offset-1">
           <div class="col-md-6 testimonial">
-            <img class="testimonial-img" src="assets/images/user1.jpg" />
-            <p class="user-detail"><b>Roseanne</b><br />Mahasiswa</p>
-            <p class="comments">Love the design and the cake</p>
+            <img class="testimonial-img" src="assets/woman.png" />
+            <p class="user-detail"><b>Sophia</b></p>
+            <p class="comments">Love the design and the cake.</p>
           </div>
           <div class="col-md-6 testimonial">
-            <img class="testimonial-img" src="assets/images/user2.jpg" />
-            <p class="user-detail"><b>Joshua</b><br />Mahasiswa</p>
-            <p class="comments">So delicious!</p>
+            <img class="testimonial-img" src="assets/man.png" />
+            <p class="user-detail"><b>Joshua</b></p>
+            <p class="comments">The cake is very delicious, I really enjoyed it.</p>
           </div>
         </div>
       </div>
@@ -147,10 +123,10 @@
           <div class="col-4 contacts">
             <h4>Find Us On Social Media</h4>
             <div class="contact-icons">
-              <a href="#"><img src="assets/img/facebook.png" /></a>
-              <a href="#"><img src="assets/img/instagram.png" /></a>
-              <a href="#"><img src="assets/img/twitter.png" /></a>
-              <a href="#"><img src="assets/img/whatsapp.png" /></a>
+              <a href="#"><img src="assets/facebook.png" /></a>
+              <a href="#"><img src="assets/instagram.png" /></a>
+              <a href="#"><img src="assets/twitter.png" /></a>
+              <a href="#"><img src="assets/whatsapp.png" /></a>
             </div>
           </div>
         </div>
@@ -159,7 +135,7 @@
             <h6>Hubungi kami</h6>
             <p>+6281 4456 0098<br />morris.cakery@gmail.com</p>
           </div>
-          <div class="col-4 place">
+          <div class="col-4 location">
             <h6>Visit Us</h6>
             <p>Jayapura, Indonesia</p>
           </div>
